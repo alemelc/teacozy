@@ -1,10 +1,4 @@
 
-/*
-* {
-	border: 1px solid white;
-}
-*/
-
 body {
 	font-family: Helvetica;
 	font-size: 22px;
@@ -18,6 +12,7 @@ body {
 li a {
 	text-decoration: underline;
 	color: seashell;
+	margin-right: 15px;
 }
 
 li {
@@ -25,9 +20,9 @@ li {
 	display: inline-block;
 }
 
-ul {
+/*ul {
 	padding: 0;
-}
+}*/
 
 header {
 width: 100%;
@@ -36,19 +31,13 @@ border-bottom: 1px solid seashell;
 margin-left: 10px;
 justify-content: space-between;
 align-items: center;
-position: fixed;
-z-index: 1;
+position: fixed; /*header does not scroll*/
 background-color: black;
 }
 
-nav {
-	margin-right: 20px;
-}
-
-.mainFlex {
+#mainContent {
 	justify-content: center;
-	padding-top: 70px;
-	z-index: 0;
+	padding-top: 70px; /*the id starts below the fixed header */
 }
 
 #mission {
@@ -61,16 +50,16 @@ nav {
 	background-position: center;
 	height: 700px;
 	width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto; /*horizontal centering the id*/
 }
 
 #missionTitle {
 	background-color: black;
 	margin: 0;
-	width: 100%;	
+	width: 100%;/* the element stretches all the #id width*/	
 }
 
-#missionTitle > h2, #missionTitle > h4 {
+#missionTitle > h2, #missionTitle > h4 { /*targeting only h2 and h4 child of the id*/
 	margin-top:10px; 
 	margin-bottom:10px;
 }
@@ -99,10 +88,9 @@ nav {
 	justify-content: center;
 }
 
-.featuredTeaListBox > p {
+.featuredTeaListBox > p { 
 	margin-top: 10px;
 }
-
 
 .locationBox {
 	display: flex;
@@ -135,11 +123,11 @@ nav {
 	padding-top: 50px;
 }
 
-#locationsTitle > h2 {
+#locationsTitle > h2 { 
 	margin-bottom: 0;
 }
 
-#copyright > h5 {
+#copyright > h5 { 
 	text-align: left;
 	margin-left: 10px;
 }
