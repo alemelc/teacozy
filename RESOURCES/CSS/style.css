@@ -1,0 +1,131 @@
+
+/*
+* {
+	border: 1px solid white;
+}
+*/
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity:0.9;
+	text-align: center;
+	margin: 0 0;
+}
+
+li a {
+	text-decoration: underline;
+	color: seashell;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+ul {
+	padding: 0;
+}
+
+header {
+width: 100%;
+display: flex;
+border-bottom: 1px solid seashell;
+margin-left: 10px;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+z-index: 1;
+background-color: black;
+}
+
+nav {
+	margin-right: 20px;
+}
+
+.mainFlex {
+	justify-content: center;
+	padding-top: 70px;
+	z-index: 0;
+}
+
+#mission {
+	/*padding-top: 250px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("I:/MEGAsync/PROGRAMMAZIONE/HTML CSS/SITI/CA PROJECTS/TEA COZY - Copia/RESOURCES/IMAGES/img-mission-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	/*position: relative; /*01 of 03_stretch the flex element to the full width*/		
+}
+
+#missionTitle {
+	background-color: black;
+	margin: 0;
+	/*position: absolute;/*02 of 03_stretch the flex element to the full width*/
+	width: 100%;/*03 of 03_stretch the flex element to the full width*/	
+}
+
+#featuredTea {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#featuredTeaList {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1000px;
+}
+
+.featuredTeaListBox {
+	display: flex:;
+	margin-right: 20px;
+	justify-content: center;
+}
+
+
+.locationBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+	height: 280px;
+	opacity: 1.0;
+	background-color: black;
+	margin-right: 40px;
+}
+
+#locationsContent {
+	display: flex;
+	justify-content: center;
+	margin-top: 2px;
+}
+
+#locations {
+	background-image: url("I:/MEGAsync/PROGRAMMAZIONE/HTML CSS/SITI/CA PROJECTS/TEA COZY - Copia/RESOURCES/IMAGES/img-locations-background.jpg");
+	width: 1200px;
+	height: 570px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#locationsTitle {
+	padding: 0 0 ;
+	margin: 0 0 ;
+}
+
+#copyright > h5 {
+	text-align: left;
+	margin-left: 10px;
+}
+
