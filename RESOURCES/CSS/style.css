@@ -52,7 +52,6 @@ nav {
 }
 
 #mission {
-	/*padding-top: 250px;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -63,14 +62,17 @@ nav {
 	height: 700px;
 	width: 1200px;
 	margin: 0 auto;
-	/*position: relative; /*01 of 03_stretch the flex element to the full width*/		
 }
 
 #missionTitle {
 	background-color: black;
 	margin: 0;
-	/*position: absolute;/*02 of 03_stretch the flex element to the full width*/
-	width: 100%;/*03 of 03_stretch the flex element to the full width*/	
+	width: 100%;	
+}
+
+#missionTitle > h2, #missionTitle > h4 {
+	margin-top:10px; 
+	margin-bottom:10px;
 }
 
 #featuredTea {
@@ -78,6 +80,10 @@ nav {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+}
+
+#featuredTeaTitle {
+	margin-top: 70px;
 }
 
 #featuredTeaList {
@@ -93,6 +99,10 @@ nav {
 	justify-content: center;
 }
 
+.featuredTeaListBox > p {
+	margin-top: 10px;
+}
+
 
 .locationBox {
 	display: flex;
@@ -103,6 +113,7 @@ nav {
 	opacity: 1.0;
 	background-color: black;
 	margin-right: 40px;
+	margin-top: 15px;
 }
 
 #locationsContent {
@@ -117,11 +128,15 @@ nav {
 	height: 570px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
+	margin-top: 70px;
 }
 
 #locationsTitle {
-	padding: 0 0 ;
-	margin: 0 0 ;
+	padding-top: 50px;
+}
+
+#locationsTitle > h2 {
+	margin-bottom: 0;
 }
 
 #copyright > h5 {
