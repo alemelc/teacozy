@@ -57,7 +57,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-image: url("I:/MEGAsync/PROGRAMMAZIONE/HTML CSS/SITI/CA PROJECTS/TEA COZY - Copia/RESOURCES/IMAGES/img-mission-background.jpg");
+	background-image: url("../IMAGES/img-mission-background.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -112,7 +112,7 @@ nav {
 }
 
 #locations {
-	background-image: url("I:/MEGAsync/PROGRAMMAZIONE/HTML CSS/SITI/CA PROJECTS/TEA COZY - Copia/RESOURCES/IMAGES/img-locations-background.jpg");
+	background-image: url("../IMAGES/img-locations-background.jpg");
 	width: 1200px;
 	height: 570px;
 	background-repeat: no-repeat;
